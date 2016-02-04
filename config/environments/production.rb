@@ -33,7 +33,7 @@ Rails.application.configure do
   config.assets.digest = true
 
   #For Mailing
-  config.action_mailer.default_url_options = { host: "localhost:3000"}
+  config.action_mailer.default_url_options = { host: "https://beblog.herokuapp.com"}
 
   # `config.assets.precompile` and `config.assets.version` have moved to config/initializers/assets.rb
 
