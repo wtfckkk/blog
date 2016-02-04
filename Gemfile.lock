@@ -90,6 +90,7 @@ GEM
       mime-types
       mimemagic (= 0.3.0)
     pg (0.17.1-x86-mingw32)
+    puma (2.16.0)
     rack (1.5.5)
     rack-test (0.6.3)
       rack (>= 1.0)
@@ -172,6 +173,7 @@ DEPENDENCIES
   letter_opener
   paperclip
   pg
+  puma
   rails (= 4.1.8)
   rails_12factor
   sanitize
