@@ -12,7 +12,7 @@ class Article < ActiveRecord::Base
 	validates :cuerpo, presence: true, length: { minimum: 20}	
 	before_save :set_visits_count	
 	after_create :save_categories	
-	after_create :send_mail	
+	#after_create :send_mail	
 
 
 	has_attached_file :cover, styles: { medium: "1280x720", thumb: "800x600", mini: "357x328" }	
