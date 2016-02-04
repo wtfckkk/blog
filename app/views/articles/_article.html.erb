@@ -1,0 +1,17 @@
+<div class="col-md-4">
+	<div class="box relative article-height">
+		<div class="absolute article-height background-cover" style="background:url(<%= article.cover.url(:mini) %>);top:0px;left:0;width: 100%;">
+					
+		</div>
+			<div class="absolute article-height background-cover" style="background:rgba(0,0,0,0.5);top:0px;left:0;width: 100%;">
+					
+					</div>				
+					<div class="relative white text-center">
+						<h2><%= link_to article.titulo, article  %></h2>
+						<p>
+							<%= truncate(Sanitize.fragment(article.cuerpo).html_safe, length: 20) %>
+						</p>			
+					</div>
+				</div>
+									
+</div>

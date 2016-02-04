@@ -1,0 +1,11 @@
+<div class="container" style="margin: 0 auto;"> 
+<h1>Artículos</h1>
+<%= link_to "Nuevo Articulo", 'articles/new', class:"red" %>
+	<div class="row">
+	<%= render @articles %>
+	</div>	
+	<div class="top-space text-center">
+		<%= will_paginate @articles %>		
+	</div>
+
+</div>	
